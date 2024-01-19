@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.pic {
+    width:407px;
+    height:563px;
+    background-image: url(../img/137.jpg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.text {
+    width:360px;
+    height:500px;
+    background:#FFF;
+    opacity:0;
+}
+
+.pic:hover .text {
+    opacity:0.6;
+    text-align:justify;
+    color:#000000;
+    font-size:20px;
+    font-weight:700;
+    font-family:"Times New Roman", Times, serif;
+    padding:30px;
+}
